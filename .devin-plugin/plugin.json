@@ -1,0 +1,6 @@
+{
+  "name": "tenetx-guard",
+  "version": "1.0.0",
+  "description": "Routes Devin lifecycle events to the TenetX guard runtime",
+  "skills": []
+}

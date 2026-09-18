@@ -1,4 +1,16 @@
 {
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "/home/ubuntu/.windsurf/hooks/tenetx-guard.sh",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
   "PreToolUse": [
     {
       "matcher": "",
@@ -60,6 +72,18 @@
     }
   ],
   "PostCompaction": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "/home/ubuntu/.windsurf/hooks/tenetx-guard.sh",
+          "timeout": 10
+        }
+      ]
+    }
+  ],
+  "SessionEnd": [
     {
       "matcher": "",
       "hooks": [
